@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TITLE</title>
-    </head>
-    <body>
-        <a>HTML</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Coretol Fun Site</title>
+    <meta name="description" content="トップページ">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a class="header-logo" href="index.html">
+                <img src="images/common/logo.png" alt="ロゴ">
+            </a>
+            <button class="toggle-menu-button"></button>
+            <div class="header-site-menu">
+                <nav class="site-menu">
+                    <ul>
+                        <li><a href="concept.html">Story</a></li>
+                        <li><a href="member.html">Rule</a></li>
+                        <li><a href="access.html">Social</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="overlay"></div>
+    <iframe id="video" src="https://www.youtube.com/embed/AX_tZ9VWTZY?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=AX_tZ9VWTZY" frameborder="0" allowfullscreen></iframe>
+    
+    <main class="main">
+        <nav class="floating">
+            <ul>
+                <li><a href="#">トップ</a></li>
+            </ul>
+        </nav>
+        <div class="first-view">
+            <div class="first-view-text">
+                <h1>Coretol</h1>
+                <p>これは貴方の物語-----</p>
+                <div class="lead">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <nav class="site-menu">
+            <ul>
+                <li><a href="concept.html">Story</a></li>
+                <li><a href="member.html">Rule</a></li>
+                <li><a href="access.html">Social</a></li>
+            </ul>
+        </nav>
+        </a>
+        <p class="copyright"><small>&copy;Coretol</small></p>
+    </footer>
+
+    <script>
+        var videoHeight = document.getElementById('video').offsetHeight;
+        document.querySelector('.main').style.marginTop = videoHeight + 'px';
+    </script>
+</body>
 </html>

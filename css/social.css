@@ -130,7 +130,6 @@ nav.floating{
     padding-right: 10px;
     padding-top: 10px;
     max-width: 200px;
-    
 }
 
 .block_youtube iframe{
@@ -146,15 +145,37 @@ nav.floating{
 
 
 .block1-1 {
-    display: inline-block;
+    float: left;
     background-color: aqua;
     margin: auto;
+    width: 50%;
+    height: 200%;
+    left: 0;
+}
+
+.img_twitter {
+    display: block;
+    margin-left: 90%;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 200px;
 }
 
 .block1-2 {
-    display: inline-block;
+    float: right;
     background-color: purple;
     margin: auto;
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+
+.img_discord {
+    display: block;
+    margin-left: 90%;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: 200px;
 }
 
 .block_discord {
@@ -171,6 +192,11 @@ nav.floating{
     display: block;
 }
 
+.dummy {
+    display: block;
+    height: 30px;
+    background-color: aqua;
+}
 .Discord {
     display: block;
 }

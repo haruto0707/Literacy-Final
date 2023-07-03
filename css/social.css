@@ -51,7 +51,6 @@
     margin-top: 1%;
     width: 15%;
     height: 100%;
-    background-color: aquamarine;
 }
 
 .img_youtube img {
@@ -86,7 +85,6 @@
     margin-top: 1%;
     width: 15%;
     height: 100%;
-    background-color: aquamarine;
 }
 
 .twitter-timeline {
@@ -108,7 +106,6 @@
     margin-top: 1%;
     width: 15%;
     height: 100%;
-    background-color: aquamarine;
 }
 
 .block_discord {
@@ -140,5 +137,4 @@
 .endSNS {
     display: block;
     height: 3%;
-    background-color: gray;
 }

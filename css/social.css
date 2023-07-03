@@ -6,7 +6,16 @@
 .startSNS {
     display: block;
     height: 3%;
+
 }
+
+.startSNS p {
+    text-align:center;
+    padding-top: 1%;
+    font-size: 300%;
+    font-family: 'Darumadrop One', cursive;
+}
+
 .SNS {
     display: block;
     height: 94%;
@@ -19,21 +28,39 @@
 }
 
 .YouTube {
-    
+    display: block;
+    margin-top: 3%;
+    height: 17%;
+}
+
+.title {
+    float: left;
+    width: 85%;
+    height: 100%;
+}
+
+.title p {
+    text-align:center;
+    padding-top: 3%;
+    font-size: 300%;
+    font-family: 'Darumadrop One', cursive;
 }
 
 .img_youtube {
-    display: block;
-    margin-left: 85%;
-    padding-right: 10px;
-    padding-top: 10px;
-    width: 20%;
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
     background-color: aquamarine;
+}
+
+.img_youtube img {
 }
 
 .block_youtube iframe{
     display: block;
-    padding: 3%;
+    padding-left: 5%;
+    padding-bottom: 5%;
     height: 85%;
     width: 90%;
 }
@@ -55,34 +82,32 @@
 }
 
 .img_twitter {
-    display: block;
-    margin-left: 85%;
-    padding-right: 10px;
-    padding-top: 10px;
-    width: 20%;
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
     background-color: aquamarine;
 }
 
 .twitter-timeline {
-    padding: 3%;
+    padding-left: 10%;
     width: 75%;
     height: 85%;
 }
 
 .block1-2 {
     float: right;
-    margin: auto;
+    margin: 0;
     width: 50%;
     height: 100%;
     right: 0;
 }
 
 .img_discord {
-    display: block;
-    margin-left: 85%;
-    padding-right: 10px;
-    padding-top: 10px;
-    width: 20%;
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
     background-color: aquamarine;
 }
 
@@ -100,10 +125,12 @@
 
 .Twitter {
     display: block;
+    height: 15%;
 }
 
 .Discord {
     display: block;
+    height: 15%;
 }
 
 .boshuu {

@@ -138,3 +138,37 @@
     display: block;
     height: 3%;
 }
+
+@media (max-width: 800px) {
+    .block_youtube {
+        display: block;
+        margin-top: 3%;
+        height: 17%;
+    }
+
+    .block1 {
+        display: block;
+        height: 80%;
+        width: 100%;
+    }
+    .block1-1 {
+        display: block;
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+    .block1-2 {
+        display: block;
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+
+    .block_youtube iframe{
+        display: block;
+        padding-top: 10%;
+        padding-left: 5%;
+        height: 80%;
+        width: 80%;
+    }
+}

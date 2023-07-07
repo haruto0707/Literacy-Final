@@ -5,15 +5,25 @@
 }
 .startSNS {
     display: block;
-    height: 3%;
-
+    height: 7%;
+    margin-top: 10%;
 }
 
 .startSNS p {
     text-align:center;
-    padding-top: 1%;
+    padding-top: 2%;
     font-size: 300%;
     font-family: 'Darumadrop One', cursive;
+}
+.startSNS p::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .SNS {
@@ -24,7 +34,7 @@
 .block_youtube {
     display: block;
     background-color: red;
-    height: 50%;
+    height: 45%;
 }
 
 .YouTube {
@@ -67,7 +77,7 @@
 .block1 {
     display: block;
     position: relative;
-    height: 50%;
+    height: 45%;
 }
 
 
@@ -132,6 +142,20 @@
 
 .boshuu {
     display: block;
+    height: 15%;
+}
+
+.text {
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 70%;
+    width: 90%;
+    background-color: green;
+}
+
+.text p {
+    font-size: 90%;
 }
 
 .endSNS {
@@ -140,6 +164,16 @@
 }
 
 @media (max-width: 800px) {
+    .main {
+        height: 2000px;
+    }
+    .startSNS p {
+        text-align:center;
+        padding-top: 12%;
+        font-size: 300%;
+        font-family: 'Darumadrop One', cursive;
+    }
+
     .block_youtube {
         display: block;
         margin-top: 3%;
@@ -148,7 +182,7 @@
 
     .block1 {
         display: block;
-        height: 70%;
+        height: 67%;
         width: 100%;
     }
     .block1-1 {
@@ -170,5 +204,15 @@
         padding-left: 5%;
         height: 80%;
         width: 80%;
+    }
+
+    .text {
+        display: block;
+        margin-top: 7%;
+        margin-left: 5%;
+        height: 68%;
+        width: 90%;
+        background-color: green;
+        overflow: auto;
     }
 }

@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+.main {
+    height: 2000px;
+}
+.startSNS {
+    display: block;
+    height: 7%;
+    margin-top: 10%;
+}
+
+.startSNS p {
+    text-align:center;
+    padding-top: 2%;
+    font-size: 300%;
+    font-family: 'Darumadrop One', cursive;
+}
+.startSNS p::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SNS {
+    display: block;
+    height: 94%;
+}
+
+.block_youtube {
+    display: block;
+    background-color: red;
+    height: 45%;
+}
+
+.YouTube {
+    display: block;
+    margin-top: 3%;
+    height: 17%;
+}
+
+.title {
+    float: left;
+    width: 85%;
+    height: 100%;
+}
+
+.title p {
+    text-align:center;
+    padding-top: 3%;
+    font-size: 300%;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.img_youtube {
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
+}
+
+.img_youtube img {
+}
+
+.block_youtube iframe{
+    display: block;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    height: 85%;
+    width: 90%;
+}
+
+.block1 {
+    display: block;
+    position: relative;
+    height: 45%;
+}
+
+
+.block1-1 {
+    float: left;
+    background-color: aqua;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+
+.img_twitter {
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
+}
+
+.twitter-timeline {
+    padding-left: 10%;
+    width: 75%;
+    height: 85%;
+}
+
+.block1-2 {
+    float: right;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+
+.img_discord {
+    float: right;
+    margin-top: 1%;
+    width: 15%;
+    height: 100%;
+}
+
+.block_discord {
+    display: block;
+    background-color: purple;
+    height: 50%;
+}
+
+.block_boshuu {
+    display: block;
+    background-color: lime;
+    height: 50%;
+}
+
+.Twitter {
+    display: block;
+    height: 15%;
+}
+
+.Discord {
+    display: block;
+    height: 15%;
+}
+
+.boshuu {
+    display: block;
+    height: 15%;
+}
+
+.text {
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 70%;
+    width: 90%;
+    background-color: green;
+}
+
+.text p {
+    font-size: 90%;
+    color: #ffffff;
+}
+
+.endSNS {
+    display: block;
+    height: 3%;
+}
+
+@media (max-width: 800px) {
+    .main {
+        height: 2000px;
+    }
+    .startSNS p {
+        text-align:center;
+        padding-top: 12%;
+        font-size: 300%;
+        font-family: 'Darumadrop One', cursive;
+    }
+
+    .block_youtube {
+        display: block;
+        margin-top: 3%;
+        height: 30%;
+    }
+
+    .block1 {
+        display: block;
+        height: 67%;
+        width: 100%;
+    }
+    .block1-1 {
+        display: block;
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+    .block1-2 {
+        display: block;
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+
+    .block_youtube iframe{
+        display: block;
+        padding-top: 10%;
+        padding-left: 5%;
+        height: 80%;
+        width: 80%;
+    }
+
+    .text {
+        display: block;
+        margin-top: 7%;
+        margin-left: 5%;
+        height: 68%;
+        width: 90%;
+        background-color: green;
+        overflow: auto;
+    }
+}

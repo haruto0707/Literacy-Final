@@ -1,3 +1,20 @@
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.main {
+    background-color: #ffffff;
+    height: 1200px;
+    position: relative;
+}
+
 .bg {
     display: flex;
     flex-direction: column;
@@ -58,35 +75,39 @@
     transform: translate(0, 0);
 }
 
-/****** Base style. ******/
-body {
-    margin: 0;
-}
-
-.contents {
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    width: 50%;
+    /* 10px is half the space you want between the two images */
+    height: 500px;
+    /* Change this value according to your needs */
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
     width: 100%;
-    height: 400px;
+    opacity: 0.5;
+    background-color: black;
 }
 
-.item {
-    width: calc(100% / 2);
-    padding: 20px 10px;
+.image-container .text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.left-item {
-    background-image: url(../images/index/leftback.png);
-    background-size: 100% 100%;
-}
-.leftitem-inner{
-    background-color: rgba(0,0,0,0,0.5);
-    align-items: center;
-    height: 80px;
-    width: 80px;
-}
-.right-item {
-    background-image: url(../images/index/rightback.png);
-    background-size: 100% 100%;
 }

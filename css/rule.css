@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.main {
+    height: auto;
+    background-color: #f8f8f8;
+}
+
+.title {
+    padding-top: 45px;
+    padding-bottom: 55px;
+    margin-top: 110px;
+}
+
+.title h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title h1::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rule-text {
+    background-color: #333333;
+    padding: 20px 20px;
+    margin: 15px 80px 50px;
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.rule-con {
+    border-top: solid 2px #f8f8f8;
+    border-bottom: solid 2px #f8f8f8;
+    padding: 20px 10px;
+}
+
+
+.rule-con:first-child{
+    border-bottom: none;
+    padding: 30px 10px;
+}
+
+.rule-text h2 {
+    color: #f8f8f8;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+.rule-con p {
+    color: #f8f8f8;
+    font-size: 18px;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
+}
+
+.rule-text h3 {
+    padding: 8px;
+    color: #f8f8f8;
+    opacity: 0.7;
+    text-align: right;
+    font-size: 15px;
+}
+
+.rule-text a {
+    text-decoration: revert;
+}
+
+@media (max-width: 800px) {
+    
+    .rule-text {
+        background-color: #333333;
+        padding: 20px 10px;
+        margin: 15px 20px 50px;
+        opacity: 0.8;
+        border-radius: 15px;
+    }
+
+    .rule-text h2 {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 5px 0px 8px;
+    }
+    
+    .rule-con p {
+        color: #f8f8f8;
+        font-size: 15px;
+        line-height: 1.3em;
+    }
+    
+    .rule-text h3 {
+        padding: 8px;
+        color: #f8f8f8;
+        opacity: 0.7;
+        text-align: right;
+        font-size: 10px;
+    }
+}

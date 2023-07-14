@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coretol Fun Site</title>
+        <meta name="description" content="トップページ">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/news.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-inner">
+                <a class="header-logo" href="index.html"><img src="images/common/logo1.png" alt="ロゴ"></a>
+                <button class="toggle-menu-button"></button>
+                <div class="header-site-menu">
+                    <nav class="site-menu">
+                        <ul>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="rule.html">Rule</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="social.html">Social</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--main ここから-->
+        <main class="main">
+            <div class="news">
+                <h1>NEWS</h1>
+                <ul class="news-list">
+                    <li>
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="images/news/20230707.jpg" alt="ようこそ、Coretolへ">
+                            </div>
+                            <div class="news-item-container">
+                                <div class="text">
+                                    <h2>
+                                        ようこそ、"Coretol" へ
+                                    </h2>
+                                    <div class="date">2023/07/07</div>
+                                </div>
+                                <p class="news-content">
+                                    "Coretol"は、Minecraft Java EditionのMMORPGサーバーです。
+                                    Minecraftの操作感を残し、初めての方でも操作をしやすいように。
+                                    広大なマップに、クラフトシステム。新しいRPG体験がここに。
+                                    皆さんに、純粋なMMORPGを遊んでいただきたい、そんな思いで制作を進めております。
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="images/news/20230707.jpg" alt="">
+                            </div>
+                            <div class="news-item-container">
+                                <div class="text">
+                                    <h2>
+                                        title
+                                    </h2>
+                                    <div class="date">date</div>
+                                </div>
+                                <p class="news-content">
+                                    content
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="images/news/20230707.jpg" alt="">
+                            </div>
+                            <div class="news-item-container">
+                                <div class="text">
+                                    <h2>
+                                        title
+                                    </h2>
+                                    <div class="date">date</div>
+                                </div>
+                                <p class="news-content">
+                                    content
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="images/news/20230707.jpg" alt="">
+                            </div>
+                            <div class="news-item-container">
+                                <div class="text">
+                                    <h2>
+                                        title
+                                    </h2>
+                                    <div class="date">date</div>
+                                </div>
+                                <p class="news-content">
+                                    content
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="news-img">
+                                <img src="images/news/20230707.jpg" alt="">
+                            </div>
+                            <div class="news-item-container">
+                                <div class="text">
+                                    <h2>
+                                        title
+                                    </h2>
+                                    <div class="date">date</div>
+                                </div>
+                                <p class="news-content">
+                                    content
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <!--main ここまで-->
+
+        <footer class="footer">
+            <nav class="site-menu">
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rule.html">Rule</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="social.html">Social</a></li>
+                </ul>
+            </nav>
+            <nav class="site-detail">
+                <ul>
+                    <li><a class="modalOpen url" data-modal="modal1">利用規約</a></li>
+                    <li><a class="modalOpen url" data-modal="modal2">プライバシーポリシー</a></li>
+                    <li><a class="modalOpen url" data-modal="modal3">二次創作ガイドライン</a></li>
+    
+                    <div id="modal1" class="modal">
+                        <div class="modal-box">
+                            <h3 class="popup-title">利用規約</h3>
+                            <p>詳しい利用規約は<a href="https://matchatb.wixsite.com/coretol/terms" class="url">公式ページ</a>をご参照ください。
+                            </p>
+                            <a class="modalClose">✕</a>
+                        </div>
+                    </div>
+    
+                    <div id="modal2" class="modal">
+                        <div class="modal-box">
+                            <h3 class="popup-title">プライバシーポリシー</h3>
+                            <p>詳しいプライバシーポリシーは<a href="https://matchatb.wixsite.com/coretol/privacy"
+                                    class="url">公式ページ</a>をご参照ください。</p>
+                            <a class="modalClose">✕</a>
+                        </div>
+                    </div>
+    
+                    <div id="modal3" class="modal">
+                        <div class="modal-box">
+                            <h3 class="popup-title">二次創作ガイドライン</h3>
+                            <p>詳しい二次創作ガイドラインは<a href="https://matchatb.wixsite.com/coretol/derivative-work"
+                                    class="url">公式ページ</a>をご参照ください。</p>
+                            <a class="modalClose">✕</a>
+                        </div>
+                    </div>
+            </nav>
+            <p class="copyright"><small>&copy;Microsoft &copy;Coretol</small></p>
+        </footer>
+
+    </body>
+</html>

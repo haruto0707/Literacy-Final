@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.main {
+    height: 1000px;
+}
+
 .gallery {
     background:white;
     height: 10%;
@@ -279,3 +283,23 @@
         100.0%{opacity: 0;}
     }
 
+@media (max-width: 800px) {
+    .main {
+        height: 1000px;
+    }
+    
+    .gallery {
+        background:white;
+        height: 10%;
+    }
+    
+    .gallery h2 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30%;
+    }
+
+    .slide{ position: relative; width: 90%; height: 30%; overflow: hidden; margin-left: 5%; margin-right: 5%; background-color: whitesmoke; background-size: cover;
+    }
+}

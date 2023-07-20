@@ -83,9 +83,7 @@
 .image-container {
     position: relative;
     width: 50%;
-    /* 10px is half the space you want between the two images */
     height: 500px;
-    /* Change this value according to your needs */
     background-size: cover;
     background-position: center;
 }
@@ -110,4 +108,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+@media (max-width: 800px){
+    .main{
+        height: 900px;
+    }
+    .image-container .text {
+        font-size: 30px;
+    }
 }

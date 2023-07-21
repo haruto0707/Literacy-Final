@@ -43,7 +43,6 @@
     content: '';
 }
 
-/* テキストのスタイル */
 .title {
     display: block;
     color: #fff;
@@ -112,8 +111,9 @@
 
 @media (max-width: 800px){
     .main{
-        height: 900px;
+        height: 1000px;
     }
+
     .image-container .text {
         font-size: 30px;
     }

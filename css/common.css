@@ -173,6 +173,7 @@ img {
 }
 .popup-title {
     border-bottom: #000000 solid 1px;
+    font-size: 20px;
     padding-bottom: 3px;
     margin-bottom: 10px;
 }
@@ -228,7 +229,8 @@ img {
         width: 25%;
     }
 
-    .main{
-        width: 100%;
+    .modal{
+        padding-top: 50px;
     }
+
 }

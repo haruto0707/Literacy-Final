@@ -85,6 +85,10 @@
 }
 
 @media (max-width:800px) {
+    .news {
+        margin-top: 30px;
+    }
+
     .news-item {
         display: block;
         padding: 20px;

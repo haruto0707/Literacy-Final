@@ -75,7 +75,10 @@
 }
 
 @media (max-width: 800px) {
-    
+    .title {
+        margin-top: 30px;
+    }
+
     .rule-text {
         background-color: #333333;
         padding: 20px 10px;

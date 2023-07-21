@@ -159,6 +159,19 @@
     color: #ffffff;
 }
 
+.text_discord {
+    display: block;
+    margin-top: 25%;
+    margin-left: 5%;
+    height: 70%;
+    width: 90%;
+    text-align: center;
+
+}
+.text_discord  a{
+    font-size: 130%;
+    color: aqua;
+}
 
 @media (max-width: 800px) {
     .main {
